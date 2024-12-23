@@ -44,12 +44,12 @@ function hackerEffect() {
         // Tampilkan pesan pertama (menganalisis hp.....) selama 3 detik
         printMessage(messages[messageIndex]);
         messageIndex++;
-        setTimeout(hackerEffect, 10000); // Delay 3 detik
+        setTimeout(hackerEffect, 11000); // Delay 3 detik
     } else if (messageIndex < messages.length) {
         // Tampilkan pesan berikutnya dengan delay 1,5 detik antar pesan
         printMessage(messages[messageIndex]);
         messageIndex++;
-        setTimeout(hackerEffect, 8000); // Delay 1,5 detik antar pesan
+        setTimeout(hackerEffect, 9000); // Delay 1,5 detik antar pesan
     } else {
         typeText("succes", () => {});
     }
